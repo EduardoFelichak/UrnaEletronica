@@ -1,0 +1,51 @@
+unit Connection_U;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, FireDAC.Comp.Client, FireDAC.Phys.PG;
+
+type
+  TMyConnection = class
+  private
+    FConnection: TFDConnection;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    function Connect: Boolean;
+    property Connection: TFDConnection read FConnection;
+  end;
+
+implementation
+
+{ TMyConnection }
+
+constructor TMyConnection.Create;
+begin
+  FConnection := TFDConnection.Create(nil);
+  FConnection.Params.Add('DriverID=PG');
+  FConnection.Params.Add('Database=eleicoes'); // Nome do banco de dados PostgreSQL
+  FConnection.Params.Add('User_Name=postgres'); // Nome de usuário do PostgreSQL
+  FConnection.Params.Add('Password=masterkey'); // Senha do PostgreSQL
+  FConnection.Params.Add('Server=localhost'); // Endereço do servidor PostgreSQL
+  FConnection.LoginPrompt := False;
+end;
+
+destructor TMyConnection.Destroy;
+begin
+  FConnection.Free;
+  inherited;
+end;
+
+function TMyConnection.Connect: Boolean;
+begin
+  try
+    FConnection.Connected := True;
+    Result := FConnection.Connected;
+  except
+    Result := False;
+  end;
+end;
+
+end.
+

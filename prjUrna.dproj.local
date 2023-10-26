@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/10/25 15:53:22.060,=C:\Users\eduardo.felichak\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/25 16:20:29.622,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unra_U.dfm=C:\Users\eduardo.felichak\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/10/25 16:20:29.622,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unra_U.pas=C:\Users\eduardo.felichak\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/25 16:20:46.682,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Urna_U.dfm=C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unra_U.dfm</Transaction>
+    <Transaction>2023/10/25 16:20:46.682,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Urna_U.pas=C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unra_U.pas</Transaction>
+    <Transaction>2023/10/25 16:20:55.680,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\prjUrna.dproj=C:\Users\eduardo.felichak\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/10/26 10:43:30.438,=C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unit1.pas</Transaction>
+    <Transaction>2023/10/26 10:49:37.302,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Connection_U.dfm=C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unit1.dfm</Transaction>
+    <Transaction>2023/10/26 10:49:37.302,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Connection_U.pas=C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unit1.pas</Transaction>
+    <Transaction>2023/10/26 11:16:07.539,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Connection_U.pas=</Transaction>
+    <Transaction>2023/10/26 11:16:15.449,=C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unit1.pas</Transaction>
+    <Transaction>2023/10/26 11:16:38.270,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Connection_U.dfm=C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unit1.dfm</Transaction>
+    <Transaction>2023/10/26 11:16:38.270,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Connection_U.pas=C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Unit1.pas</Transaction>
+    <Transaction>2023/10/26 11:32:03.382,C:\Users\eduardo.felichak\Desktop\Estudo\Urna\Connection_U.pas=</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Urna_U.pas"/>
+    <File Path="Urna_U.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
